@@ -30,7 +30,7 @@ class SaleController extends Controller
         $balance = $total - $paid;
 
         $sale = Sale::create([
-            'invoice_number' => 'INV-' . now()->format('Ymd') . '-' . str_pad((Sale::max('id') + 1), 4, '0', STR_PAD_LEFT),
+            'invoice_number' => 'INV-' . now()->format('YmdHis') . '-' . str_pad((Sale::max('id') + 1), 4, '0', STR_PAD_LEFT),
             'customer_id'    => $request->input('customer_id') ?: null,
             'customer_name'  => $request->input('customer_name'),
             'subtotal'       => $total,
@@ -136,3 +136,4 @@ class SaleController extends Controller
         return redirect()->route('sales.trash')->with('success', 'Invoice restored.');
     }
 }
+

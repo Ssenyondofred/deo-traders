@@ -85,7 +85,6 @@
 
             <div class="nav-label">Operations</div>
             <a href="<?php echo e(route('purchases.index')); ?>" class="sidebar-link <?php echo e(request()->routeIs('purchases.*') ? 'active' : ''); ?>"><span>🛒</span> Purchases</a>
-            <a href="<?php echo e(route('purchases.daily')); ?>" class="sidebar-link <?php echo e(request()->routeIs('purchases.daily') ? 'active' : ''); ?>"><span>📄</span> Daily Receipt</a>
             <a href="<?php echo e(route('sales.index')); ?>" class="sidebar-link <?php echo e(request()->routeIs('sales.*') ? 'active' : ''); ?>"><span>💰</span> Sales</a>
 
             <div class="nav-label">Admin</div>
@@ -136,4 +135,5 @@
 </footer>
 </body>
 </html>
+
 <?php /**PATH C:\Users\Admin\Desktop\Patu\deo-traders\resources\views/layouts/admin.blade.php ENDPATH**/ ?>

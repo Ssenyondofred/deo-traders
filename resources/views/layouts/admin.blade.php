@@ -85,7 +85,6 @@
 
             <div class="nav-label">Operations</div>
             <a href="{{ route('purchases.index') }}" class="sidebar-link {{ request()->routeIs('purchases.*') ? 'active' : '' }}"><span>🛒</span> Purchases</a>
-            <a href="{{ route('purchases.daily') }}" class="sidebar-link {{ request()->routeIs('purchases.daily') ? 'active' : '' }}"><span>📄</span> Daily Receipt</a>
             <a href="{{ route('sales.index') }}" class="sidebar-link {{ request()->routeIs('sales.*') ? 'active' : '' }}"><span>💰</span> Sales</a>
 
             <div class="nav-label">Admin</div>
@@ -134,3 +133,4 @@
 </footer>
 </body>
 </html>
+

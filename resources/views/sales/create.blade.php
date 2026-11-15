@@ -79,18 +79,10 @@
                 <label class="block text-sm font-medium text-slate-700 mb-1">Paid</label>
                 <input type="number" name="paid" value="0" step="0.01" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">
             </div>
-            <div>
-                <label class="block text-sm font-medium text-slate-700 mb-1">Status</label>
-                <select name="status" class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm">
-                    <option value="partial">Partial</option>
-                    <option value="paid">Paid</option>
-                    <option value="unpaid">Unpaid</option>
-                </select>
             </div>
-        </div>
 
         <div class="flex gap-2">
-            <button type="submit" class="btn-primary-soft">Save Sale</button>
+            <button type="submit" class="btn-primary-soft" onclick="this.disabled=true; this.form.submit();">Save Sale</button>
             <a href="{{ route('sales.index') }}" class="px-4 py-2 text-sm text-slate-600 border border-slate-300 rounded-lg hover:bg-slate-50">Cancel</a>
         </div>
     </form>
@@ -139,3 +131,4 @@ function updateTotal() {
 }
 </script>
 @endsection
+

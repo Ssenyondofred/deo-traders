@@ -40,15 +40,16 @@ Route::middleware('auth')->group(function () {
     Route::resource('customers', \App\Http\Controllers\CustomerController::class);
     Route::resource('suppliers', \App\Http\Controllers\SupplierController::class);
 
+    // Trash routes (before sales resource)
     Route::get('/sales/trash', [\App\Http\Controllers\SaleController::class, 'trash'])->name('sales.trash');
     Route::post('/sales/{id}/restore', [\App\Http\Controllers\SaleController::class, 'restore'])->name('sales.restore');
     Route::delete('/sales/{id}/force', [\App\Http\Controllers\SaleController::class, 'forceDelete'])->name('sales.forceDelete');
 
     Route::resource('sales', \App\Http\Controllers\SaleController::class);
     Route::resource('purchases', \App\Http\Controllers\PurchaseController::class);
+    Route::resource('users', \App\Http\Controllers\UserController::class);
 
     Route::get('/purchases/daily', fn() => 'Daily Receipt coming soon')->name('purchases.daily');
-    Route::get('/users', fn() => 'Users coming soon')->name('users.index');
 
     Route::get('/reports', function () {
         $debtors = \App\Models\Sale::where('balance', '>', 0)

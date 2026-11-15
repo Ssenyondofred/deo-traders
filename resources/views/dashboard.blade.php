@@ -102,7 +102,7 @@
                 @forelse(($debtors ?? []) as $d)
                     <tr class="border-b border-slate-100">
                         <td class="px-3 py-2">
-                            <a href="{{ route('sales.show', $d) }}" class="text-blue-600 font-medium hover:underline">
+                            <a href="{{ route('sales.edit', $d) }}" class="text-blue-600 font-medium hover:underline">
                                 {{ $d->invoice_number ?? '—' }}
                             </a>
                         </td>
