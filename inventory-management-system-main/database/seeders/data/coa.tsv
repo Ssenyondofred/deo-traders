@@ -1,0 +1,153 @@
+1000	KAS & BANK	Kas/Bank	496099957.84	1
+1001	KAS	Kas/Bank	0	1
+1001.01	Kas kecil	Kas/Bank	0	0
+1001.02	Kas Besar	Kas/Bank	0	0
+1001.03	Kas Transfer(Post Silang)	Kas/Bank	0	0
+1002	BANK	Kas/Bank	396786678.84	1
+1002.01	Bank Mandiri 1680069000	Kas/Bank	260000132.28	0
+1002.02	Bank BCA 8650858523	Kas/Bank	136786546.56	0
+1002.05	Deposito	Kas/Bank	0	0
+1003	RDN	Kas/Bank	99313279	1
+1003.01	Growin Mandiri 1020014084633	Kas/Bank	98313279	0
+1003.02	Indodax	Kas/Bank	1000000	0
+1100	PIUTANG USAHA	Akun Piutang	0	1
+1100.01	Piutang Usaha	Akun Piutang	0	0
+1100.02	Uang muka pembelian	Akun Piutang	0	0
+1100.03	Advance Purchase IDR	Akun Piutang	0	0
+1200	PERSEDIAAN BARANG DAGANG	Persediaan	0	1
+1200.01	Persediaan Barang Dagang	Persediaan	0	0
+1200.02	Barang Terkirim	Persediaan	0	0
+1300	BIAYA DIBAYAR DIMUKA	Aktiva Lancar lainnya	0	1
+1300.01	Sewa Gedung Dibayar Dimuka	Aktiva Lancar lainnya	0	0
+1300.02	Asuransi Dibayar Dimuka	Aktiva Lancar lainnya	0	0
+1400	PAJAK DIBAYAR DIMUKA	Aktiva Lancar lainnya	67549	1
+1400.01	PPH 21 Dibayar Dimuka	Aktiva Lancar lainnya	0	0
+1400.02	PPH 22 Dibayar Dimuka	Aktiva Lancar lainnya	0	0
+1400.03	PPH 23 Dibayar Dimuka	Aktiva Lancar lainnya	0	0
+1400.04	PPH 25 Dibayar Dimuka	Aktiva Lancar lainnya	0	0
+1400.05	PPH 4(2) Dibayar Dimuka	Aktiva Lancar lainnya	0	0
+1400.06	PPn Masukan	Aktiva Lancar lainnya	67549	1
+1400.06.01	VAT Brokerage Fee	Aktiva Lancar lainnya	54317	0
+1400.06.02	VAT IDX Levy	Aktiva Lancar lainnya	13232	0
+1400.07	PPN Dibayar Dimuka	Aktiva Lancar lainnya	0	0
+1500	AKUN SILANG	Aktiva Lancar lainnya	0	1
+1500.01	Akun Silang Kas Bank	Aktiva Lancar lainnya	0	0
+1500.02	Akun Silang Aktiva	Aktiva Lancar lainnya	0	0
+1600	PIUTANG LAIN-LAIN	Aktiva Lancar lainnya	9095000000	1
+1600.01	Piutang Henry Widjaja	Aktiva Lancar lainnya	5000000000	0
+1600.02	Piutang Lim Yan Wen	Aktiva Lancar lainnya	3375000000	0
+1600.03	Piutang Edwan	Aktiva Lancar lainnya	720000000	0
+1700	INVESTASI SAHAM	Aktiva Lancar lainnya	400955000	1
+1700.01	Investasi Saham - BMRI	Aktiva Lancar lainnya	200764000	0
+1700.02	Investasi Saham - LPPF	Aktiva Lancar lainnya	200191000	0
+1800	AKTIVA TETAP	Aktiva Tetap	0	1
+1800.01	Tanah	Aktiva Tetap	0	0
+1800.02	Gedung	Aktiva Tetap	0	0
+1800.03	Kendaraan	Aktiva Tetap	0	0
+1800.04	Peralatan	Aktiva Tetap	0	0
+1800.05	Inventaris Kantor	Aktiva Tetap	0	0
+1810	AKUMULASI DEPRESIASI FIXED ASSET	Akumulasi Penyusutan	0	1
+1810.01	Akumulasi Penyusutan Gedung	Akumulasi Penyusutan	0	0
+1810.02	Akumulasi Penyusutan Kendaraan	Akumulasi Penyusutan	0	0
+1810.03	Akumulasi Penyusutan Peralatan	Akumulasi Penyusutan	0	0
+1810.04	Akumulasi Penyusutan Inventaris Kantor	Akumulasi Penyusutan	0	0
+2000	HUTANG USAHA	Akun Hutang	0	1
+2000.01	Hutang Usaha	Akun Hutang	0	0
+2000.02	Uang Muka Penjualan	Akun Hutang	0	0
+2000.03	Advance Sales IDR	Akun Hutang	0	0
+2100	HUTANG PAJAK	Hutang lancar lainnya	187500	1
+2100.01	Hutang Pajak PPH 21	Hutang lancar lainnya	0	0
+2100.02	Hutang Pajak PPh 23	Hutang lancar lainnya	187500	0
+2100.03	Hutang Pajak PPh 25	Hutang lancar lainnya	0	0
+2100.04	Hutang Pajak PPh 29	Hutang lancar lainnya	0	0
+2100.05	Hutang Pajak PPh 4(2) Final	Hutang lancar lainnya	0	0
+2100.06	Hutang Pajak PPh 4(2) Sewa	Hutang lancar lainnya	0	0
+2100.07	PPn Keluaran	Hutang lancar lainnya	0	0
+2100.08	Hutang PPN	Hutang lancar lainnya	0	0
+2200	HUTANG LAIN-LAIN	Hutang lancar lainnya	0	1
+2200.01	Hutang Pembelian Belum Ditagih	Hutang lancar lainnya	0	0
+2200.02	Hutang Lainnya	Hutang lancar lainnya	0	0
+2200.03	Hutang Pemegang Saham	Hutang lancar lainnya	0	0
+2300	HUTANG BIAYA	Hutang lancar lainnya	0	1
+2300.01	Hutang Gaji	Hutang lancar lainnya	0	0
+2300.02	Hutang BPJS	Hutang lancar lainnya	0	0
+2400	HUTANG JANGKA PANJANG	Hutang lancar lainnya	0	1
+2400.01	Hutang Leasing	Hutang lancar lainnya	0	0
+2400.02	Hutang Bank	Hutang lancar lainnya	0	0
+3000	MODAL	Ekuitas	10000000000	1
+3000.01	Modal	Ekuitas	10000000000	0
+3000.02	Retained Earning	Ekuitas	0	0
+3000.03	Deviden	Ekuitas	0	0
+3000.04	Opening Balance Equity	Ekuitas	0	0
+4000	PENDAPATAN	Pendapatan	0	1
+4000.01	Penjualan	Pendapatan	0	0
+4000.02	Pendapatan Jasa	Pendapatan	0	0
+4000.03	Retur Penjualan	Pendapatan	0	0
+4000.04	Potongan Penjualan	Pendapatan	0	0
+4000.05	Sales Term Discount IDR	Pendapatan	0	0
+5000	COGS	Harga Pokok Penjualan	0	1
+5000.01	Harga Pokok Penjualan	Harga Pokok Penjualan	0	0
+6000	BIAYA PEMASARAN UMUM & ADM	Beban	0	1
+6100	BIAYA PEMASARAN	Beban	0	1
+6101	Biaya Iklan	Beban	0	0
+6102	Biaya Komisi	Beban	0	0
+6104	Biaya Entertainment	Beban	0	0
+6199	Biaya Pemasaran Lainnya	Beban	0	0
+6300	BIAYA PENYUSUTAN & AMORTISASI	Beban	0	1
+6300.01	Biaya Penyusutan Gedung	Beban	0	0
+6300.02	Biaya Penyusutan Kendaraan	Beban	0	0
+6300.03	Biaya Penyusutan Peralatan	Beban	0	0
+6300.04	Biaya Penyusutan Inventaris kantor	Beban	0	0
+6200	BIAYA UMUM & ADMINISTRASI	Beban	664172	1
+6201	GAJI & TUNJANGAN KARYAWAN	Beban	0	1
+6201.01	Biaya Gaji, Lembur & THR	Beban	0	0
+6201.02	Biaya Bonus Pesangon & Kompensasi	Beban	0	0
+6201.03	Biaya Transport Karyawan	Beban	0	0
+6201.04	Biaya Upah & Honorer	Beban	0	0
+6201.05	Biaya Catering & Makan Karyawan	Beban	0	0
+6201.06	Biaya Tunjangan Kesehatan	Beban	0	0
+6201.07	Biaya Asuransi Karyawan	Beban	0	0
+6201.08	Biaya THR	Beban	0	0
+6203	BIAYA UTILITI, ADM, SEWA & LAINNYA	Beban	10000	1
+6203.01	Biaya Listrik	Beban	0	0
+6203.02	Biaya PAM	Beban	0	0
+6203.03	Biaya Telekomunikasi	Beban	0	0
+6203.04	Biaya Koran & Majalah	Beban	0	0
+6203.05	Biaya Ekspedisi & Pos	Beban	0	0
+6203.06	Biaya Perjalanan Dinas	Beban	0	0
+6203.07	Biaya Perlengkapan Kantor	Beban	0	0
+6203.08	STNK, KIR & Pajak Kendaraan	Beban	0	0
+6203.09	Biaya Rumah Tangga	Beban	0	0
+6203.10	Biaya Retribusi & Sumbangan	Beban	0	0
+6203.11	Biaya Sewa Gedung	Beban	0	0
+6203.13	Biaya Umum & Adm Lainnya	Beban	0	0
+6203.14	Biaya Materai	Beban	10000	0
+6204	BIAYA PAJAK	Beban	0	1
+6204.01	Biaya PPh 21	Beban	0	0
+6204.02	Biaya PPh 4(2) Sewa	Beban	0	0
+6204.03	Biaya PPh 23	Beban	0	0
+6204.04	Biaya Pajak	Beban	0	0
+6205	BIAYA PEMELIHARAAN & PERBAIKAN	Beban	0	1
+6205.01	Biaya Pemeliharaan Gedung	Beban	0	0
+6205.02	Biaya Pemeliharaan Peralatan Kantor	Beban	0	0
+6205.03	Biaya Pemeliharaan Kendaraan	Beban	0	0
+6206	BIAYA TRANSAKSI EFEK	Beban	654172	1
+6206.01	Brokerage Fee	Beban	493789	0
+6206.02	IDX Levy	Beban	120287	0
+6206.03	KPEI Fee	Beban	40096	0
+6206.04	Biaya Broker Lain	Beban	0	0
+7100	PENDAPATAN DILUAR USAHA	Pendapatan lain	348973.55	1
+7100.01	Pendapatan Jasa Giro	Pendapatan lain	348973.55	0
+7100.02	Pendapatan Bunga Deposito	Pendapatan lain	0	0
+7100.03	Penjualan Inventory / Perlengkapan	Pendapatan lain	0	0
+7100.99	Pendapatan Lain-Lain	Pendapatan lain	0	0
+7200	BIAYA DILUAR USAHA	Beban lain-lain	7749794.71	1
+7200.01	Biaya Bunga Pinjaman Lainnya	Beban lain-lain	0	0
+7200.02	Biaya Adm Bank & Buku Cek/Giro	Beban lain-lain	180000	0
+7200.03	Pajak Jasa Giro	Beban lain-lain	69794.71	0
+7200.99	Beban Lain-Lain	Beban lain-lain	7500000	0
+8100	Gain/Loss Dispossal F.A	Beban lain-lain	0	0
+8200	Gain/Loss Revaluation FA	Pendapatan lain	0	0
+9000.99	PAJAK PENGHASILAN	Beban lain-lain	0	0
+910002	Realize Gain or Loss IDR	Beban	0	0
+910003	Unrealize Gain or Loss IDR	Beban	0	0
